@@ -15,14 +15,14 @@ package cse360assign2;
 public class OrderedIntList {
 	
 	protected int[] numList;  // numList is a container of the integers numbers on the array.
-	protected int count;      // count is variable is going to count how many element in the array.
+	protected int countElements;      // countElements is variable is going to count how many element in the array.
 	private boolean debug;
 	
 	/** constructor that creates (initialization) an empty list of integers */
 	OrderedIntList ()
 	{	
 		numList = new int[10];
-		count = 0;		
+		countElements = 0;		
 	}
 	
 	/** This method inserts a new number into the array in ascending order
@@ -33,33 +33,33 @@ public class OrderedIntList {
 		int placeToInsert = 0;
 		
 		//if the array is full, expand it 
-		if (count == numList.length)
+		if (countElements == numList.length)
 		{
 			grow();
 		}
 		
 		//if the list is empty, insert at the beginning
-		if (count == 0)
+		if (countElements == 0)
 		{
 			numList[0] = newValue;
-			count++;
+			countElements++;
 		}
 		else 
 		{			
 			//find where the index to insert is 
-			for (int index = 0; index < count && newValue > numList[index]; index++)
+			for (int index = 0; index < countElements && newValue > numList[index]; index++)
 			{				
 					placeToInsert = index + 1;				
 			}
 			
 			//shifting the integers to insert the newValue			
-			for (int index = count; index > placeToInsert ; index--)
+			for (int index = countElements; index > placeToInsert ; index--)
 			{
 				    numList[index] = numList[index - 1];
 			}
 			
 			numList[placeToInsert] = newValue; 
-			count++;
+			countElements++;
 			
 		}
 		
@@ -68,9 +68,9 @@ public class OrderedIntList {
 	/** This method expands the array if the array is full */
 	private void grow ()
 	{
-		int []temp = new int[count * 2];
+		int []temp = new int[countElements * 2];
 		
-		for (int index = 0; index < count; index++)
+		for (int index = 0; index < countElements; index++)
 		{
 			temp[index] = numList[index];
 		}
@@ -82,7 +82,7 @@ public class OrderedIntList {
 	/** This print function displays the list */
 	public void print () 
 	{
-		for (int index = 0; index < count; index++)
+		for (int index = 0; index < countElements; index++)
 		{
 			if (index % 5 == 0)
 			{
