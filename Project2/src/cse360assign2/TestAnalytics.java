@@ -1,9 +1,10 @@
-/** The Program description ===>
- *  A list of integer numbers is implemented as an array of integers.
- *  the insert method is to insert a new value into the array ===> 
- *  so that the array remains in ascending order.
- *  also we can say This class takes an integers as input 
- *  and outputs should given integers in ascending order.
+/** The Test description ===>
+ *  we are going to test the classes by different cases 
+ *  0.Test number zero No elements inside the array the array is empty.
+ *  1.Test number one in in order insert numbers.
+ *  2.Test number two in descending order insert numbers.
+ *  3.Test number three random order insert numbers.
+ *  4.Test number four more than 10 insert numbers.
  *  @author Gaith Salman
  *  Student PIN # 43
  *  @version May 22, 2016
@@ -31,7 +32,7 @@ public class TestAnalytics {
 		/**
 	    * allocated location and Create object class testObject1 (Analytics) so we can access the methods ===>    
 		* 1.Method mean – return the mean of the integer list as a double.
-        * 2.Method median – return the median of the integer list as an int.
+        * 2.Method median – return the median of the integer list as an integer.
         * 3.Method high – return the high value in the list.
         * 4	Method low – return the low value in the list.
         * 5.Method numInts – return the number of integers in the list.
@@ -52,15 +53,15 @@ public class TestAnalytics {
 		
         System.out.println("//******************** Test number zero No elements iside the array the array is empty ********************//");
 		
-		System.out.println(testObject1.mean());
+		System.out.println("Mean Number: "+testObject1.mean());
 		
-		System.out.println(testObject1.median());
+		System.out.println("Median Number: "+testObject1.median());
 		
-		System.out.println(testObject1.high());
+		System.out.println("High Number: "+testObject1.high());
 		
-		System.out.println(testObject1.low());
+		System.out.println("Low Number: "+testObject1.low());
 		
-		System.out.println(testObject1.numInts());
+		System.out.println("Number of elements in the array: "+testObject1.numInts());
 		
 			
 		/**************************************************/
@@ -113,17 +114,17 @@ public class TestAnalytics {
 	    */
 		//list.print();
 		
-		System.out.println("//******************** Test number one inoered insert numbers ********************//");
+		System.out.println("//******************** Test number one in order insert numbers ********************//");
 		
-		System.out.println(testObject1.mean());
+        System.out.println("Mean Number: "+testObject1.mean());
 		
-		System.out.println(testObject1.median());
+		System.out.println("Median Number: "+testObject1.median());
 		
-		System.out.println(testObject1.high());
+		System.out.println("High Number: "+testObject1.high());
 		
-		System.out.println(testObject1.low());
+		System.out.println("Low Number: "+testObject1.low());
 		
-		System.out.println(testObject1.numInts());
+		System.out.println("Number of elements in the array: "+testObject1.numInts());
 		
 			
 		/**************************************************/
@@ -170,15 +171,15 @@ public class TestAnalytics {
 		
 		System.out.println("//******************** Test number two in descending order insert numbers ********************//");
 		
-		System.out.println(testObject1.mean());
+		System.out.println("Mean Number: "+testObject1.mean());
 		
-		System.out.println(testObject1.median());
+		System.out.println("Median Number: "+testObject1.median());
 		
-		System.out.println(testObject1.high());
+		System.out.println("High Number: "+testObject1.high());
 		
-		System.out.println(testObject1.low());
+		System.out.println("Low Number: "+testObject1.low());
 		
-		System.out.println(testObject1.numInts());
+		System.out.println("Number of elements in the array: "+testObject1.numInts());
 		
         /**************************************************/
 		
@@ -224,15 +225,15 @@ public class TestAnalytics {
 		
 		System.out.println("//******************** Test number three random order insert numbers ********************//");
 		
-		System.out.println(testObject1.mean());
+		System.out.println("Mean Number: "+testObject1.mean());
 		
-		System.out.println(testObject1.median());
+		System.out.println("Median Number: "+testObject1.median());
 		
-		System.out.println(testObject1.high());
+		System.out.println("High Number: "+testObject1.high());
 		
-		System.out.println(testObject1.low());
+		System.out.println("Low Number: "+testObject1.low());
 		
-		System.out.println(testObject1.numInts());
+		System.out.println("Number of elements in the array: "+testObject1.numInts());
 		
 /**************************************************/
 		
@@ -290,15 +291,15 @@ public class TestAnalytics {
 		
 		System.out.println("//******************** Test number four more than 10 insert numbers ********************//");
 		
-		System.out.println(testObject1.mean());
+		System.out.println("Mean Number: "+testObject1.mean());
 		
-		System.out.println(testObject1.median());
+		System.out.println("Median Number: "+testObject1.median());
 		
-		System.out.println(testObject1.high());
+		System.out.println("High Number: "+testObject1.high());
 		
-		System.out.println(testObject1.low());
+		System.out.println("Low Number: "+testObject1.low());
 		
-		System.out.println(testObject1.numInts());
+		System.out.println("Number of elements in the array: "+testObject1.numInts());
 		
 		
 		
