@@ -25,7 +25,7 @@ public class TestAnalytics {
 	    *  also we can say This class takes an integers as input 
 	    *  and outputs should given integers in ascending order.
 		*/
-		OrderedIntList list = new OrderedIntList();
+		//OrderedIntList list = new OrderedIntList();
 		   
 		  
 		/**
