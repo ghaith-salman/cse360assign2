@@ -14,9 +14,9 @@ package cse360assign2;
  
 public class OrderedIntList {
 	
-	protected int[] numList;  // numList is a container of the integers numbers on the array.
+	protected int[] numList;          // numList is a container of the integers numbers on the array.
 	protected int countElements;      // countElements is variable is going to count how many element in the array.
-	private boolean debug;
+	private boolean debug = true;
 	
 	/** constructor that creates (initialization) an empty list of integers */
 	OrderedIntList ()
