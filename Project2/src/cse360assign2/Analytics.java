@@ -6,7 +6,7 @@
  *  3.Method high ===> return the high value in the list.
  *  4.Method low ===> return the low value in the list.
  *  5.Method numInts ===> return the number of integers in the list.
- *  @author Gaith Salman
+ *  @author Ghaith Salman
  *  Student PIN # 43
  *  @version May 31, 2016
  *
@@ -38,6 +38,8 @@ public class Analytics extends OrderedIntList {
 
 		if(countElements != 0)
 		{
+			
+			meanValue = 0; 
 
 			for (int index = 0; index < countElements; index++)
 			{
@@ -64,7 +66,7 @@ public class Analytics extends OrderedIntList {
 	 * if the numList is odd we will divide the numbers of element to find the number in the middle (direct way No problem in this case).
 	 * if the the numList even we will find the two numbers in the middle then,
 	 * add them together, then divide the result by two to find the median.
-	 * @return medianValue this is the median of the numbers in the numList array
+	 * @return medianValue this is the median of the numbers in the numList array.
 	 */
 	public int median ()
 	{

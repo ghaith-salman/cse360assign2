@@ -4,9 +4,9 @@
  *  so that the array remains in ascending order.
  *  also we can say This class takes an integers as input 
  *  and outputs should given integers in ascending order.
- *  @author Gaith Salman
+ *  @author Ghaith Salman
  *  Student PIN # 43
- *  @version May 22, 2016
+ *  @version May 31, 2016
  * 
  */
 
