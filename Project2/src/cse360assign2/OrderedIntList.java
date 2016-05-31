@@ -16,7 +16,7 @@ public class OrderedIntList {
 	
 	protected int[] numList;          // numList is a container of the integers numbers on the array.
 	protected int countElements;      // countElements is variable is going to count how many element in the array.
-	//private boolean debug = true;
+	private boolean debug = true;     // used for instrument coding.
 	
 	/** constructor that creates (initialization) an empty list of integers */
 	OrderedIntList ()
@@ -86,13 +86,27 @@ public class OrderedIntList {
 		{
 			if (index % 5 == 0)
 			{
+				
 				System.out.println();
+				
 			}
 		
 			System.out.print(numList[index] + "\t");	
+			
 		}
 		
 		System.out.println();
+		
+	}
+	
+	
+	/**
+	 * This method well return the variable that we are using for instrumenting code
+	 * */
+	protected boolean debugging()
+	{
+		
+		return debug;
 		
 	}
 
